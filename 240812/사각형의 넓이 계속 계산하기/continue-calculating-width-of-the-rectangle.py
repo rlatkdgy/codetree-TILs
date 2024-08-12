@@ -6,5 +6,5 @@ while True:
     b = int(w)
     print(a*b)
 
-    if e == 'c':
+    if e == 'C':
         break
