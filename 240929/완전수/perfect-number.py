@@ -11,6 +11,7 @@ while start <= end:
             a += i
     if a == start:
         cnt += 1
+    a=0
 
 
     start += 1
