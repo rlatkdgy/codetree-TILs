@@ -6,7 +6,7 @@ int main() {
     int N;
    
     cin >> N;
-     int a = 80-N;
+    int a = 80-N;
     
 
     if (N>=80){
