@@ -12,7 +12,7 @@ int main() {
     if (N>=80){
         cout << "pass" << endl;
     }else{
-        cout << a << "more score"<< endl;
+        cout << a <<" " <<"more score"<< endl;
     }
     return 0;
 }
