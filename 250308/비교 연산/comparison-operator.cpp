@@ -7,41 +7,14 @@ int main() {
 
     cin >> A >> B;
 
-    if (A>=B){
-        cout << "1" <<endl;
+    cout << (A>=B) <<endl;
+    cout << (A>B)<<endl;
+    cout << (B>=A)<<endl;
+    cout << (B>A)<<endl;
+    cout << (A==B) << endl;
+    cout << (A!=B) << endl;
 
-    }else{
-        cout << "0" << endl;
-    }
-    if (A>B){
-        cout << "1" <<endl;
 
-    }else{
-        cout << "0" << endl;
-    }    
-    if (B>=A){
-        cout << "1" <<endl;
-
-    }else{
-        cout << "0" << endl;
-    }
-    if(B>A){
-        cout << "1" << endl;
-    }else{
-        cout << "0" <<endl;
-    }
-    if (A=B){
-        cout << "0" <<endl;
-
-    }else{
-        cout << "1" << endl;
-    }   
-    if (A!=B){
-        cout << "0" <<endl;
-
-    }else{
-        cout << "1" << endl;
-    }
 
     return 0;
 }
