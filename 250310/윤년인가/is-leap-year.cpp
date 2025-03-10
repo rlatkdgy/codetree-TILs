@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+//윤년 -> 트루 , 평년 -> 폴스
 
 int main() {
     // Please write your code here.
@@ -12,6 +13,8 @@ int main() {
         }else{
             cout << "true" << endl;
         }
+    }else{
+        cout << "false"<< endl;
     }
     return 0;
 }
