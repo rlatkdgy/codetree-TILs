@@ -9,10 +9,10 @@ int main() {
     if(Y%4==0){
         if(Y%100==0 && Y%400 !=0){
             cout << "false" << endl;
+        }else{
+            cout << "true" << endl;
         }
         
-    }else{
-        cout << "true" << endl;
     }
     return 0;
 }
