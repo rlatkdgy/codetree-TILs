@@ -12,7 +12,6 @@ int main() {
         }else{
             cout << "true" << endl;
         }
-        
     }
     return 0;
 }
